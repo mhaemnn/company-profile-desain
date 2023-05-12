@@ -1,4 +1,4 @@
-### Project 3 [kelompok 1]
+### Project 3 [Group 1]
 
 (........silahkan isi kata-kata...............)
 

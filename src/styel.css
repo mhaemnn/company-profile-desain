@@ -62,7 +62,6 @@ body {
 .header .contanier .nav-links a.active {
   color: #e73587;
 }
-
 .contact-btn {
   background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
   color: #fff !important;

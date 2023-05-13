@@ -134,6 +134,7 @@ body {
   }
 }
 @media (max-width: 750px) {
+  /* navbar */
   #btn-menu {
     display: block;
     position: absolute;

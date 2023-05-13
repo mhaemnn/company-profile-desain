@@ -27,10 +27,21 @@ body {
   height: 70px;
   align-items: center;
 }
-.header .logo {
-  font-size: 22px;
-  color: black;
+.header .rectangle {
+  width: 100px;
+  height: 120px;
+  left: 135px;
+  top: 0;
+  background: #020e35;
   text-decoration: none;
+}
+.header .copy {
+  position: fixed;
+  width: 100px;
+  height: 6px;
+  left: 137px;
+  top: 95px;
+  background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
 }
 .header .contanier .nav-links {
   display: flex;
@@ -68,12 +79,11 @@ body {
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++=
                            MOBILE VERSION
    ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-@media (max-width: 1000px) {
+@media (max-width: 991px) {
   .header .contanier {
     width: 100%;
     padding: 0 20px;
   }
-
   .header .contanier .nav-links a {
     font-size: 14px;
     margin-left: 20px;
@@ -96,6 +106,14 @@ body {
     text-align: center;
     line-height: 33px;
   }
+  .header .copy {
+    position: absolute;
+    width: 100px;
+    height: 6px;
+    left: 20px;
+    top: 95px;
+    background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
+  }
   .header .contanier .nav-links {
     position: absolute;
     top: 100%;
@@ -108,9 +126,6 @@ body {
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     transition: 0.3s;
   }
-  .header .contanier .nav-links.active {
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-  }
   .header .contanier .nav-links a {
     color: #020e35;
     display: block;
@@ -118,8 +133,15 @@ body {
     width: 100%;
     border-bottom: 1px solid #d4d4d4a7;
   }
+  .header .contanier .nav-links.active {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
   .contact-btn {
     background: #fff;
     color: #020e35 !important;
   }
 }
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++=
+                           TABLET VERSION
+   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */

@@ -62,9 +62,11 @@ body {
 .header .contanier .nav-links a.active {
   color: #e73587;
 }
+
 .contact-btn {
   background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
   color: #fff !important;
+  border-radius: 2px;
   border: none;
   padding: 0.7rem;
   text-decoration: none;
@@ -107,16 +109,17 @@ body {
 }
 
 .container header .head_photo {
-  margin-top: 90px;
-  width: 534px;
-  height: 490px;
-  background-image: url(/src/assets/banner.png);
-  background-size: cover;
-  border-radius: 5px;
+  margin-top: 100px;
+  width: 700px;
+  height: 690px;
+  background-image: url(/src/assets/vector.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: right;
 }
 /* =============================About Us======================== */
 #aboutUs .about {
-  margin-top: 100px;
+  margin-top: -110px;
   text-align: center;
   padding-left: 350px;
   padding-right: 350px;
@@ -145,6 +148,7 @@ body {
 @media (max-width: 1000px) {
   /* about us */
   #aboutUs .about {
+    margin-top: 80px;
     padding-left: 200px;
     padding-right: 200px;
   }
@@ -221,13 +225,12 @@ body {
   }
   .head_name h4 {
     margin-top: 55px !important;
-    font-size: 20px;
     line-height: 55px;
   }
   .container header .head_photo {
-    margin-top: 85px;
+    margin-top: 100px;
     width: 400px;
-    height: 200px;
+    height: 280px;
   }
   /* about us */
   #aboutUs .about {

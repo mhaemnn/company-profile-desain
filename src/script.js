@@ -16,3 +16,4 @@ function toggleForm() {
     form.style.display = "none";
   }
 }
+

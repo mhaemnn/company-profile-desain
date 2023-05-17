@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Basic&display=swap');
+
+*{
+    background-color: #020E35;
+    color: #ffff;
+    font-family: 'basic';
+}
+.home-button a{
+    text-decoration: none;
+    color: #ffff;
+    margin: 20px;
+}
+.title-work{
+    text-align: center;
+}
+.title-work img{
+    margin-top: -30px;
+}
+.content{
+    text-align: center;
+}
+.content img{
+    width: 500px;
+}
+.text-desc{
+    text-align: justify;
+    margin-top: 30px;
+}

@@ -140,6 +140,182 @@ body {
 }
 /* ======================Our Valuable Service=================== */
 /* ===========================Our Work========================== */
+/* section A */
+.section-A{
+  background-color: #020E35;
+  color: #ffff;
+  font-family: 'basic';
+}
+/* our works */
+.title-ourwork{
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 50px;
+}
+.title-ourwork img{
+  margin-top: -35px;
+}
+/* content brand name */
+.brand-name-1{
+  margin-top: 30px;
+  display: flex;
+}
+.brand-name-1 img{
+  width: 550px;
+}
+.text-brand-1 p{
+  width: 500px;
+}
+.text-brand-2 p{
+  width: 500px;
+}
+.brand-name-2{
+  margin-top: 60px;
+  display: flex;
+}
+.brand-name-2 img{
+  width: 550px;
+}
+.brand-name-3{
+  margin-top: 60px;
+  display: flex;
+}
+.brand-name-3 img{
+  width: 550px;
+}
+.button-ourwork{
+  margin-top: 60px;
+  text-align: center;
+  padding-bottom: 60px;
+}
+.button-ourwork a{
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  color: #ffff;
+  border-style: none;
+  text-decoration: none;
+  background-image: linear-gradient(to right,#8C32F0,#E73587);
+}
+/* responsive section A */
+@media screen and (max-width: 1125px) {
+  .text-brand-1 p{
+      width: 100%;
+  }
+  .text-brand-2 p{
+      width: 100%;
+  }
+  .brand-name-1 img{
+      width: 50%;
+  }
+  .brand-name-2 img{
+      width: 50%;
+  }
+  .brand-name-3 img{
+      width: 50%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .text-brand{
+      display: none;
+  }
+  .web-text{
+      display: none;
+  }
+  .brand-name-1 img{
+      width: 100%;
+  }
+  .brand-name-2 img{
+      width: 100%;
+  }
+  .brand-name-3 img{
+      width: 100%;
+  }
+}
+/* section B */
+.section-B{
+  margin-top: 100px;
+  font-family: 'basic';
+}
+.section-B .container{
+  display: flex;
+}
+/* text section B */
+.text-contact h1{
+  font-size: 80px;
+  width: 550px;
+  margin-right: 20px;
+}
+.pink-color{
+  color: #E73587;
+}
+/* form section B */
+.form-label{
+  text-align: left;
+  display: block;
+}
+form input{
+  width: 520px;
+  padding: 10px;
+}
+form p{
+  border-style: solid;
+  padding: 10px;
+  border-width: 1px;
+  border-color: #00000033;
+  text-align: left;
+}
+form textarea{
+  width: 520px;
+  height: 168px;
+  padding: 10px;
+}
+form button {
+  width: 100%;
+  padding: 10px;
+  color: #ffff;
+  border-style: none;
+  background-image: linear-gradient(to left,#8C32F0,#E73587);
+}
+footer{
+  background-color: #020E35;
+  color: #ffff;
+  margin-top: 100px;
+  padding: 2px;
+  text-align: left;
+}
+/* responsive section D */
+@media screen and (max-width: 1025px) {
+  .section-B .container{
+      display: grid;
+  }
+  .text-contact{
+      text-align: center;
+      width: 100%;
+  }
+  .text-contact h1{
+      width: 100%;
+      font-size: 70px;
+  }
+  form{
+      margin-top: 50px;
+  }
+  form input{
+      width: 100%;
+  }
+  form textarea{
+      width: 100%;
+  }
+  footer{
+      text-align: center;
+  }
+}
+@media screen and (max-width: 700px) {
+  .text-contact h1{
+      font-size: 50px;
+  }
+}
+
 /* ================Contact, Newslatter and Footer=============== */
 
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++=

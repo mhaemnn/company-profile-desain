@@ -19,6 +19,7 @@ body {
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
   position: fixed;
   top: 0;
+  z-index: 999;
   left: 0;
 }
 
@@ -419,7 +420,6 @@ footer {
    ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 @media (max-width: 1250px) {
-
   /* services */
   .services-card .card1 .picture1 img,
   .services-card .card2 .picture2 img,
@@ -432,7 +432,6 @@ footer {
 }
 
 @media (max-width: 1100px) {
-
   /* services */
   .services-card .card1 .picture1 img,
   .services-card .card2 .picture2 img,
@@ -445,7 +444,6 @@ footer {
 }
 
 @media (max-width: 1000px) {
-
   /* about us */
   #aboutUs .about {
     margin-top: 80px;
@@ -471,7 +469,6 @@ footer {
 }
 
 @media (max-width: 750px) {
-
   /* navbar */
   #btn-menu {
     display: block;
@@ -553,7 +550,6 @@ footer {
 }
 
 @media (max-width: 450px) {
-
   /* about us */
   #aboutUs .about {
     padding-left: 20px;

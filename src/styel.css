@@ -139,18 +139,143 @@ body {
   color: #2b2b2b;
 }
 /* ======================Our Valuable Service=================== */
+#services {
+  margin-top: 100px;
+  text-align: center;
+  margin-bottom: -260px;
+}
+
+#services h4 {
+  color: #020e35;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+#services .line {
+  margin-top: -15px;
+}
+
+.services-card {
+  display: flex;
+  margin-top: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.services-card .card1 {
+  background-color: #fdf8e3;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.services-card .card2 {
+  background-color: #f0f3fa;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.services-card .card3 {
+  background-color: #feeff0;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.services-card .card4 {
+  background-color: #e0f7fa;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.services-card .card5 {
+  background-color: #efebe9;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.services-card .card6 {
+  background-color: #f3e5f5;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.services-card .card1 .picture1 img,
+.services-card .card2 .picture2 img,
+.services-card .card3 .picture3 img,
+.services-card .card4 .picture4 img,
+.services-card .card5 .picture5 img,
+.services-card .card6 .picture6 img {
+  height: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+
+#services .card1 .description,
+#services .card2 .description,
+#services .card3 .description,
+#services .card4 .description,
+#services .card5 .description,
+#services .card6 .description {
+  padding: 20px;
+}
+
+.description button {
+  width: 100px;
+  height: 40px;
+  font-size: 0.8em;
+  font-weight: 500;
+  color: #fff;
+  background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+  border: none;
+}
+
+/* slick design */
+.arrow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.arrow .arrow_prev,
+.arrow .arrow_right {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+  color: #fff;
+}
+
+.arrow .arrow_prev {
+  position: absolute;
+  left: 0;
+  margin-top: -285px;
+  margin-left: 30px;
+}
+
+.arrow .arrow_right {
+  position: absolute;
+  right: 0;
+  margin-top: -285px;
+  margin-right: 30px;
+}
+
 /* ===========================Our Work========================== */
 /* section A */
 .section-A{
   background-color: #020E35;
   color: #ffff;
   font-family: 'basic';
+  padding-top: 250px;
 }
 /* our works */
 .title-ourwork{
   text-align: center;
-  padding-top: 20px;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 .title-ourwork img{
   margin-top: -35px;
@@ -254,6 +379,31 @@ footer{
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++=
                            MOBILE VERSION
    ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+   @media (max-width:1250px) {
+    /* services */
+    .services-card .card1 .picture1 img,
+    .services-card .card2 .picture2 img,
+    .services-card .card3 .picture3 img,
+    .services-card .card4 .picture4 img,
+    .services-card .card5 .picture5 img,
+    .services-card .card6 .picture6 img {
+        height: 200px;
+    }
+}
+
+@media (max-width:1100px) {
+  /* services */
+  .services-card .card1 .picture1 img,
+  .services-card .card2 .picture2 img,
+  .services-card .card3 .picture3 img,
+  .services-card .card4 .picture4 img,
+  .services-card .card5 .picture5 img,
+  .services-card .card6 .picture6 img {
+      height: 150px;
+  }
+}
+
 @media (max-width: 1000px) {
   /* about us */
   #aboutUs .about {

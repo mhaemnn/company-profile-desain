@@ -1,3 +1,29 @@
+// services
+$('.slider').slick({
+  dots: false,
+  infinite: true,
+  speed: 300,
+  prevArrow: '.arrow_prev',
+  nextArrow: '.arrow_right',
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  responsive: [{
+          breakpoint: 850,
+          settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1
+          }
+      },
+      {
+          breakpoint: 650,
+          settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+          }
+      }
+  ]
+});
+
 let btnMenu = document.getElementById("btn-menu");
 let menu = document.getElementById("menu");
 

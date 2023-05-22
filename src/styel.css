@@ -1,10 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Basic&display=swap");
+
 * {
   font-family: "Basic", sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
 body {
   height: 100vh;
   width: 100%;
@@ -19,6 +21,7 @@ body {
   top: 0;
   left: 0;
 }
+
 .header .contanier {
   width: 80%;
   margin: auto;
@@ -27,6 +30,7 @@ body {
   height: 70px;
   align-items: center;
 }
+
 .header .rectangle {
   width: 100px;
   height: 120px;
@@ -35,10 +39,12 @@ body {
   background: #020e35;
   text-decoration: none;
 }
+
 .header .rectangle img {
   width: 100px;
   margin-top: 43px;
 }
+
 .header .copy {
   position: fixed;
   width: 100px;
@@ -47,10 +53,12 @@ body {
   top: 95px;
   background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
 }
+
 .header .contanier .nav-links {
   display: flex;
   align-items: center;
 }
+
 .header .contanier .nav-links a {
   color: #020e35;
   text-decoration: none;
@@ -58,6 +66,7 @@ body {
   text-transform: uppercase;
   transition: 0.3s;
 }
+
 .header .contanier .nav-links a:hover,
 .header .contanier .nav-links a.active {
   color: #e73587;
@@ -71,19 +80,23 @@ body {
   padding: 0.7rem;
   text-decoration: none;
 }
+
 .contact-btn:hover {
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
 #btn-menu {
   display: none;
   color: #e73587;
 }
+
 /* ==============================Banner========================= */
 .container header {
   display: flex;
   justify-content: space-between;
   min-height: calc(100vh - 176px);
 }
+
 .container header .head_name h4 {
   margin-top: 170px;
   margin-left: 10px;
@@ -104,6 +117,7 @@ body {
   border-radius: 3px;
   transition: all 0.3s ease-in-out;
 }
+
 .container header .head_name .link_personal .hire_me:hover {
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -117,6 +131,7 @@ body {
   background-repeat: no-repeat;
   background-position-y: right;
 }
+
 /* =============================About Us======================== */
 #aboutUs .about {
   margin-top: -110px;
@@ -138,6 +153,7 @@ body {
 #aboutUs .about p {
   color: #2b2b2b;
 }
+
 /* ======================Our Valuable Service=================== */
 #services {
   margin-top: 100px;
@@ -247,6 +263,7 @@ body {
   justify-content: center;
   background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
   color: #fff;
+  cursor: pointer;
 }
 
 .arrow .arrow_prev {
@@ -271,47 +288,59 @@ body {
   font-family: "basic";
   padding-top: 250px;
 }
+
 /* our works */
 .title-ourwork {
   text-align: center;
   margin-top: 100px;
 }
+
 .title-ourwork img {
   margin-top: -35px;
 }
+
 /* content brand name */
 .brand-name-1 {
   margin-top: 30px;
   display: flex;
 }
+
 .brand-name-1 img {
   width: 550px;
 }
+
 .text-brand-1 p {
   width: 500px;
 }
+
 .text-brand-2 p {
   width: 500px;
 }
+
 .brand-name-2 {
   margin-top: 60px;
   display: flex;
 }
+
 .brand-name-2 img {
   width: 550px;
 }
+
 .brand-name-3 {
   margin-top: 60px;
   display: flex;
 }
+
 .brand-name-3 img {
   width: 550px;
 }
+
 .button-ourwork {
   margin-top: 60px;
   text-align: center;
   padding-bottom: 60px;
 }
+
 .button-ourwork a {
   padding: 10px;
   padding-left: 40px;
@@ -321,33 +350,40 @@ body {
   text-decoration: none;
   background-image: linear-gradient(to right, #8c32f0, #e73587);
 }
+
 /* ================Contact, Newslatter and Footer=============== */
 /* section B */
 .section-B {
   margin-top: 100px;
   font-family: "basic";
 }
+
 .section-B .container {
   display: flex;
 }
+
 /* text section B */
 .text-contact h1 {
   font-size: 80px;
   width: 550px;
   margin-right: 20px;
 }
+
 .pink-color {
   color: #e73587;
 }
+
 /* form section B */
 .form-label {
   text-align: left;
   display: block;
 }
+
 form input {
   width: 520px;
   padding: 10px;
 }
+
 form p {
   border-style: solid;
   padding: 10px;
@@ -355,11 +391,13 @@ form p {
   border-color: #00000033;
   text-align: left;
 }
+
 form textarea {
   width: 520px;
   height: 168px;
   padding: 10px;
 }
+
 form button {
   width: 100%;
   padding: 10px;
@@ -367,6 +405,7 @@ form button {
   border-style: none;
   background-image: linear-gradient(to left, #8c32f0, #e73587);
 }
+
 footer {
   background-color: #020e35;
   color: #ffff;
@@ -380,6 +419,7 @@ footer {
    ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 @media (max-width: 1250px) {
+
   /* services */
   .services-card .card1 .picture1 img,
   .services-card .card2 .picture2 img,
@@ -392,6 +432,7 @@ footer {
 }
 
 @media (max-width: 1100px) {
+
   /* services */
   .services-card .card1 .picture1 img,
   .services-card .card2 .picture2 img,
@@ -404,6 +445,7 @@ footer {
 }
 
 @media (max-width: 1000px) {
+
   /* about us */
   #aboutUs .about {
     margin-top: 80px;
@@ -411,20 +453,25 @@ footer {
     padding-right: 200px;
   }
 }
+
 @media (max-width: 991px) {
   .header .contanier {
     width: 100%;
     padding: 0 20px;
   }
+
   .header .contanier .nav-links a {
     font-size: 14px;
     margin-left: 20px;
   }
+
   .header .contanier .nav-links .soc-links {
     margin-left: 30px;
   }
 }
+
 @media (max-width: 750px) {
+
   /* navbar */
   #btn-menu {
     display: block;
@@ -439,6 +486,7 @@ footer {
     text-align: center;
     line-height: 33px;
   }
+
   .header .copy {
     position: absolute;
     width: 100px;
@@ -447,6 +495,7 @@ footer {
     top: 95px;
     background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
   }
+
   .header .contanier .nav-links {
     position: absolute;
     top: 100%;
@@ -459,6 +508,7 @@ footer {
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     transition: 0.3s;
   }
+
   .header .contanier .nav-links a {
     color: #020e35;
     display: block;
@@ -466,9 +516,11 @@ footer {
     width: 100%;
     border-bottom: 1px solid #d4d4d4a7;
   }
+
   .header .contanier .nav-links.active {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
+
   .contact-btn {
     background: #fff;
     color: #020e35 !important;
@@ -481,15 +533,18 @@ footer {
     justify-content: center;
     flex-direction: column-reverse;
   }
+
   .head_name h4 {
     margin-top: 55px !important;
     line-height: 55px;
   }
+
   .container header .head_photo {
     margin-top: 100px;
     width: 400px;
     height: 280px;
   }
+
   /* about us */
   #aboutUs .about {
     padding-left: 100px;
@@ -498,73 +553,126 @@ footer {
 }
 
 @media (max-width: 450px) {
+
   /* about us */
   #aboutUs .about {
     padding-left: 20px;
     padding-right: 20px;
   }
+
+  /* services */
+  .services-card .card1 .picture1 img,
+  .services-card .card2 .picture2 img,
+  .services-card .card3 .picture3 img,
+  .services-card .card4 .picture4 img,
+  .services-card .card5 .picture5 img,
+  .services-card .card6 .picture6 img {
+    height: 130px;
+  }
+
+  #services .card1 .description,
+  #services .card2 .description,
+  #services .card3 .description,
+  #services .card4 .description,
+  #services .card5 .description,
+  #services .card6 .description {
+    padding: 10px;
+  }
+
+  .arrow .arrow_prev,
+  .arrow .arrow_right {
+    height: 30px;
+    width: 30px;
+    font-size: 0.6em;
+  }
+
+  .arrow .arrow_prev {
+    margin-top: -275px;
+  }
+
+  .arrow .arrow_right {
+    margin-top: -275px;
+  }
 }
+
 /* responsive section A */
 @media screen and (max-width: 1125px) {
   .text-brand-1 p {
     width: 100%;
   }
+
   .text-brand-2 p {
     width: 100%;
   }
+
   .brand-name-1 img {
     width: 50%;
   }
+
   .brand-name-2 img {
     width: 50%;
   }
+
   .brand-name-3 img {
     width: 50%;
   }
 }
+
 @media screen and (max-width: 700px) {
   .text-brand {
     display: none;
   }
+
   .web-text {
     display: none;
   }
+
   .brand-name-1 img {
     width: 100%;
   }
+
   .brand-name-2 img {
     width: 100%;
   }
+
   .brand-name-3 img {
     width: 100%;
   }
 }
+
 /* responsive section B */
 @media screen and (max-width: 1025px) {
   .section-B .container {
     display: grid;
   }
+
   .text-contact {
     text-align: center;
     width: 100%;
   }
+
   .text-contact h1 {
     width: 100%;
     font-size: 70px;
   }
+
   form {
     margin-top: 50px;
   }
+
   form input {
     width: 100%;
   }
+
   form textarea {
     width: 100%;
   }
+
   footer {
     text-align: center;
   }
 }
+
 @media screen and (max-width: 700px) {
   .text-contact h1 {
     font-size: 50px;

@@ -211,7 +211,6 @@ body {
   margin-top: 10px;
 }
 
-
 #services .card1 .description,
 #services .card2 .description,
 #services .card3 .description,
@@ -227,7 +226,7 @@ body {
   font-size: 0.8em;
   font-weight: 500;
   color: #fff;
-  background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+  background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
   border: none;
 }
 
@@ -246,7 +245,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+  background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
   color: #fff;
 }
 
@@ -266,97 +265,97 @@ body {
 
 /* ===========================Our Work========================== */
 /* section A */
-.section-A{
-  background-color: #020E35;
+.section-A {
+  background-color: #020e35;
   color: #ffff;
-  font-family: 'basic';
+  font-family: "basic";
   padding-top: 250px;
 }
 /* our works */
-.title-ourwork{
+.title-ourwork {
   text-align: center;
   margin-top: 100px;
 }
-.title-ourwork img{
+.title-ourwork img {
   margin-top: -35px;
 }
 /* content brand name */
-.brand-name-1{
+.brand-name-1 {
   margin-top: 30px;
   display: flex;
 }
-.brand-name-1 img{
+.brand-name-1 img {
   width: 550px;
 }
-.text-brand-1 p{
+.text-brand-1 p {
   width: 500px;
 }
-.text-brand-2 p{
+.text-brand-2 p {
   width: 500px;
 }
-.brand-name-2{
+.brand-name-2 {
   margin-top: 60px;
   display: flex;
 }
-.brand-name-2 img{
+.brand-name-2 img {
   width: 550px;
 }
-.brand-name-3{
+.brand-name-3 {
   margin-top: 60px;
   display: flex;
 }
-.brand-name-3 img{
+.brand-name-3 img {
   width: 550px;
 }
-.button-ourwork{
+.button-ourwork {
   margin-top: 60px;
   text-align: center;
   padding-bottom: 60px;
 }
-.button-ourwork a{
+.button-ourwork a {
   padding: 10px;
   padding-left: 40px;
   padding-right: 40px;
   color: #ffff;
   border-style: none;
   text-decoration: none;
-  background-image: linear-gradient(to right,#8C32F0,#E73587);
+  background-image: linear-gradient(to right, #8c32f0, #e73587);
 }
 /* ================Contact, Newslatter and Footer=============== */
 /* section B */
-.section-B{
+.section-B {
   margin-top: 100px;
-  font-family: 'basic';
+  font-family: "basic";
 }
-.section-B .container{
+.section-B .container {
   display: flex;
 }
 /* text section B */
-.text-contact h1{
+.text-contact h1 {
   font-size: 80px;
   width: 550px;
   margin-right: 20px;
 }
-.pink-color{
-  color: #E73587;
+.pink-color {
+  color: #e73587;
 }
 /* form section B */
-.form-label{
+.form-label {
   text-align: left;
   display: block;
 }
-form input{
+form input {
   width: 520px;
   padding: 10px;
 }
-form p{
+form p {
   border-style: solid;
   padding: 10px;
   border-width: 1px;
   border-color: #00000033;
   text-align: left;
 }
-form textarea{
+form textarea {
   width: 520px;
   height: 168px;
   padding: 10px;
@@ -366,10 +365,10 @@ form button {
   padding: 10px;
   color: #ffff;
   border-style: none;
-  background-image: linear-gradient(to left,#8C32F0,#E73587);
+  background-image: linear-gradient(to left, #8c32f0, #e73587);
 }
-footer{
-  background-color: #020E35;
+footer {
+  background-color: #020e35;
   color: #ffff;
   margin-top: 100px;
   padding: 2px;
@@ -380,19 +379,7 @@ footer{
                            MOBILE VERSION
    ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
-   @media (max-width:1250px) {
-    /* services */
-    .services-card .card1 .picture1 img,
-    .services-card .card2 .picture2 img,
-    .services-card .card3 .picture3 img,
-    .services-card .card4 .picture4 img,
-    .services-card .card5 .picture5 img,
-    .services-card .card6 .picture6 img {
-        height: 200px;
-    }
-}
-
-@media (max-width:1100px) {
+@media (max-width: 1250px) {
   /* services */
   .services-card .card1 .picture1 img,
   .services-card .card2 .picture2 img,
@@ -400,7 +387,19 @@ footer{
   .services-card .card4 .picture4 img,
   .services-card .card5 .picture5 img,
   .services-card .card6 .picture6 img {
-      height: 150px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 1100px) {
+  /* services */
+  .services-card .card1 .picture1 img,
+  .services-card .card2 .picture2 img,
+  .services-card .card3 .picture3 img,
+  .services-card .card4 .picture4 img,
+  .services-card .card5 .picture5 img,
+  .services-card .card6 .picture6 img {
+    height: 150px;
   }
 }
 
@@ -507,68 +506,68 @@ footer{
 }
 /* responsive section A */
 @media screen and (max-width: 1125px) {
-  .text-brand-1 p{
-      width: 100%;
+  .text-brand-1 p {
+    width: 100%;
   }
-  .text-brand-2 p{
-      width: 100%;
+  .text-brand-2 p {
+    width: 100%;
   }
-  .brand-name-1 img{
-      width: 50%;
+  .brand-name-1 img {
+    width: 50%;
   }
-  .brand-name-2 img{
-      width: 50%;
+  .brand-name-2 img {
+    width: 50%;
   }
-  .brand-name-3 img{
-      width: 50%;
+  .brand-name-3 img {
+    width: 50%;
   }
 }
 @media screen and (max-width: 700px) {
-  .text-brand{
-      display: none;
+  .text-brand {
+    display: none;
   }
-  .web-text{
-      display: none;
+  .web-text {
+    display: none;
   }
-  .brand-name-1 img{
-      width: 100%;
+  .brand-name-1 img {
+    width: 100%;
   }
-  .brand-name-2 img{
-      width: 100%;
+  .brand-name-2 img {
+    width: 100%;
   }
-  .brand-name-3 img{
-      width: 100%;
+  .brand-name-3 img {
+    width: 100%;
   }
 }
 /* responsive section B */
 @media screen and (max-width: 1025px) {
-  .section-B .container{
-      display: grid;
+  .section-B .container {
+    display: grid;
   }
-  .text-contact{
-      text-align: center;
-      width: 100%;
+  .text-contact {
+    text-align: center;
+    width: 100%;
   }
-  .text-contact h1{
-      width: 100%;
-      font-size: 70px;
+  .text-contact h1 {
+    width: 100%;
+    font-size: 70px;
   }
-  form{
-      margin-top: 50px;
+  form {
+    margin-top: 50px;
   }
-  form input{
-      width: 100%;
+  form input {
+    width: 100%;
   }
-  form textarea{
-      width: 100%;
+  form textarea {
+    width: 100%;
   }
-  footer{
-      text-align: center;
+  footer {
+    text-align: center;
   }
 }
 @media screen and (max-width: 700px) {
-  .text-contact h1{
-      font-size: 50px;
+  .text-contact h1 {
+    font-size: 50px;
   }
 }
 

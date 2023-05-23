@@ -139,6 +139,8 @@ body {
   text-align: center;
   padding-left: 350px;
   padding-right: 350px;
+  position: relative;
+  z-index: 99;
 }
 
 #aboutUs .about .line {
@@ -153,6 +155,16 @@ body {
 
 #aboutUs .about p {
   color: #2b2b2b;
+}
+
+#aboutUs .circle {
+  width: 200px;
+  height: 200px;
+  background: #f0f3fa;
+  border-radius: 50%;
+  position: absolute;
+  left: -100px;
+  margin-top: -170px;
 }
 
 /* ======================Our Valuable Service=================== */
@@ -549,6 +561,12 @@ footer {
   }
 }
 
+@media (max-width:600px) {
+  #aboutUs .circle {
+    margin-top: -200px;
+  }
+}
+
 @media (max-width: 450px) {
   /* about us */
   #aboutUs .about {
@@ -557,13 +575,9 @@ footer {
   }
 
   /* services */
-  .services-card .card1 .picture1 img,
-  .services-card .card2 .picture2 img,
-  .services-card .card3 .picture3 img,
-  .services-card .card4 .picture4 img,
-  .services-card .card5 .picture5 img,
-  .services-card .card6 .picture6 img {
-    height: 130px;
+  .services-card {
+    padding-left: 50px;
+    padding-right: 50px;
   }
 
   #services .card1 .description,
@@ -584,10 +598,12 @@ footer {
 
   .arrow .arrow_prev {
     margin-top: -275px;
+    margin-left: 15px;
   }
 
   .arrow .arrow_right {
     margin-top: -275px;
+    margin-right: 15px;
   }
 }
 

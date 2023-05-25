@@ -1,5 +1,5 @@
-![Contributors](https://img.shields.io/github/contributors/{mhaemnn}/{desainaja})
-![Last Commit](https://img.shields.io/github/last-commit/{mhaemnn}/{desainaja})
+![Contributors](https://img.shields.io/github/contributors/{muhaemin}/{desainaja})
+![Last Commit](https://img.shields.io/github/last-commit/{muhaemin}/{desainaja})
 
 ### Project 3 [Group 1]
 

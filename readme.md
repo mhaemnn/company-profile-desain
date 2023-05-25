@@ -1,9 +1,7 @@
 ![Contributors](https://img.shields.io/github/contributors/{mhaemnn}/{desainaja})
 ![Last Commit](https://img.shields.io/github/last-commit/{mhaemnn}/{desainaja})
 
-### Project 3 [Group 1]
-
-(........silahkan isi kata-kata...............)
+### <center>Project 3 [Group 1]</center>
 
 | Name                     | Division of Tasks                | Github                               |
 | ------------------------ | -------------------------------- | ------------------------------------ |

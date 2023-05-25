@@ -1,3 +1,5 @@
+![Contributors](https://img.shields.io/github/contributors/{mhaemnn}/{desainaja})
+
 ### Project 3 [Group 1]
 
 (........silahkan isi kata-kata...............)

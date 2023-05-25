@@ -1,3 +1,5 @@
+⭐️ Star me on GitHub
+
 ![Contributors](https://img.shields.io/github/contributors/{mhaemnn}/{desainaja})
 ![Last Commit](https://img.shields.io/github/last-commit/{mhaemnn}/{desainaja})
 

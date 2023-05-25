@@ -1,4 +1,4 @@
-![Contributors](https://img.shields.io/github/contributors/{mhaemnn}/{desainaja})
+![Contributors](https://img.shields.io/github/contributors/{muhaemin}/{desainaja})
 
 ### Project 3 [Group 1]
 

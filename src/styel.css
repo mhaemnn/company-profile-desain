@@ -50,7 +50,7 @@ body {
   position: fixed;
   width: 100px;
   height: 6px;
-  left: 137px;
+  left: 135px;
   top: 95px;
   background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
 }
@@ -561,7 +561,7 @@ footer {
   }
 }
 
-@media (max-width:600px) {
+@media (max-width: 600px) {
   #aboutUs .circle {
     margin-top: -200px;
   }
